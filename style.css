@@ -8,6 +8,10 @@ header{
 main{
   display: flex;
 }
+footer{
+  display: flex;
+  justify-content: space-around;
+}
 h1{
   font-size: 40px;
 }
