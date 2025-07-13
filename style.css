@@ -5,17 +5,46 @@ body{
 header{
   display: flex;
 }
+main{
+  display: flex;
+}
 h1{
   font-size: 40px;
 }
 h5{
   font-size: 20px;
 }
-
 .avatar{
-  width: 50%;
+  width: 30%;
 }
 .name{
-  width: 50%;
+  width: 70%;
   text-align: center;
+}
+.contact-info{
+  display: flex;
+  align-items: center;
+}
+.aboutMe{
+  width: 30%;
+}
+.contact ul{
+  padding: 0px;
+}
+.skills_list{
+  display: flex;
+  align-items: center;
+}
+.skills ul{
+  padding: 0px;
+}
+.experience{
+  width: 70%;
+  text-align: center;
+}
+.information{
+  text-align: left;
+}
+pre{
+  text-align: left;
 }
