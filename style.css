@@ -1,0 +1,21 @@
+body{
+  width: 60%;
+  margin: 0px 20%;
+}
+header{
+  display: flex;
+}
+h1{
+  font-size: 40px;
+}
+h5{
+  font-size: 20px;
+}
+
+.avatar{
+  width: 50%;
+}
+.name{
+  width: 50%;
+  text-align: center;
+}
