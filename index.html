@@ -7,10 +7,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="wrapper">
     <header>
-      <section class="avatar">
+      <div class="avatar">
         <img src="images/avatar.png" title="avatar" width="200" height="200">
-      </section>
+      </div>
       <section class="name">
         <h1>Alexey Kostyuk</h1>
         <p>Front-end developer</p>
@@ -53,7 +54,7 @@
           </ul>
         </div>
         <h2>WORK EXAMPLE</h2>
-        <p><a href="https://Hypnodancer1.github.io/rsschool-cv/">CV</a></p>
+        <p class="work_example"><a href="https://Hypnodancer1.github.io/rsschool-cv/">CV</a></p>
       </section>
 
       <section class="experience">
@@ -70,28 +71,33 @@
           </li>
         </ul>
         <h2>Education</h2>
-        <p>2025 - now</p>
-        <p>Rolling Scopes School</p>
-        <p>2017-2021</p>
-        <p>Belarusian State University of Informatics and Radioelectronics</p>
+        <div class="education_info">
+          <p class="education_info_bold">2025 - now</p>
+          <p class="education_info_name">Rolling Scopes School</p>
+        </div>
+        <div class="education_info">
+          <p class="education_info_bold">2017-2021</p>
+          <p class="education_info_name">Belarusian State University of Informatics and Radioelectronics</p>
+        </div>
         <h2>Code example</h2>
-        <code><pre>
+        <pre><code>
           &lsaquo;script&rsaquo;
               console.log('Hello World');
           &lsaquo;/script&rsaquo;
-          </pre></code>
+        </code></pre>
       </section>
     </main>
     <footer>
-      <a href="https://github.com/Hypnodancer1" alt="github link">
+      <a href="https://github.com/Hypnodancer1">
         <img src="/images/github_icon.png" title="github icon">
       </a>
       <p>
         2025
       </p>
-      <a href="https://rs.school/courses/javascript-ru" alt="RSSchool link">
+      <a href="https://rs.school/courses/javascript-ru">
         <img src="/images/rs-school-logo.svg" title="RSSchool logo" width="50" height="50">
       </a>
     </footer>
+  </div>
 </body>
 </html>

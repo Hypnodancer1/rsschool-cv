@@ -1,22 +1,41 @@
 body{
-  width: 60%;
-  margin: 0px 20%;
+  display: flex;
+  background-color: #e6e2d4;
+  font-family: 'Montserrat', sans-serif;;
+}
+.wrapper{
+  width: 800px;
+  background-color: #4d4d4d;
+  color: white;
+  margin: auto;
 }
 header{
   display: flex;
+  padding: 20px;
 }
 main{
   display: flex;
+  background-color: white;
+  color: #4d4d4d;
+  padding: 20px;
 }
 footer{
   display: flex;
   justify-content: space-around;
+  padding: 20px;
+}
+footer a{
+  margin:auto;
 }
 h1{
   font-size: 40px;
 }
 h5{
   font-size: 20px;
+}
+a{
+  text-decoration:none;
+  color: #4d4d4d;
 }
 .avatar{
   width: 30%;
@@ -31,7 +50,10 @@ h5{
 }
 .aboutMe{
   width: 30%;
+  border-right: 1px solid black;
+  margin-right: 20px;
 }
+
 .contact ul{
   padding: 0px;
 }
@@ -51,4 +73,17 @@ h5{
 }
 pre{
   text-align: left;
+}
+.education_info{
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.education_info_bold{
+  font-weight: bold;
+  margin-right: 20px;
+  text-align: left;
+}
+.education_info_name{
+  width: 100%;
+  text-align: center;
 }
